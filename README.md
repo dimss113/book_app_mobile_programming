@@ -47,3 +47,34 @@ samples, guidance on mobile development, and a full API reference.
 - Delete Book Page
 
 ![image](https://github.com/dimss113/book_app_mobile_programming/assets/89715780/deffac3b-a116-4b78-ac08-6ffcf34ea78b)
+
+
+## Stateless and Classes
+
+https://github.com/dimss113/book_collection_app_flutter/blob/17d7d8776d385df600dda7aa681c3219e969e238/lib/widget/book_card.dart#L7-L64
+
+## Statefull
+
+https://github.com/dimss113/book_collection_app_flutter/blob/17d7d8776d385df600dda7aa681c3219e969e238/lib/pages/books_page.dart#L8-L98
+
+## Image
+
+https://github.com/dimss113/book_collection_app_flutter/blob/17d7d8776d385df600dda7aa681c3219e969e238/lib/widget/book_card.dart#L32-L42
+
+## error handling
+
+https://github.com/dimss113/book_collection_app_flutter/blob/17d7d8776d385df600dda7aa681c3219e969e238/lib/db/book_database.dart#L66-L82
+
+## CRUD Sqflite
+
+https://github.com/dimss113/book_collection_app_flutter/blob/17d7d8776d385df600dda7aa681c3219e969e238/lib/db/book_database.dart#L36-L134
+
+## 5 different widgets
+- Container
+- FloatingActionButton
+- Column
+- CircleAvatar
+- Padding
+- Staggergrid
+
+https://github.com/dimss113/book_collection_app_flutter/blob/17d7d8776d385df600dda7aa681c3219e969e238/lib/pages/books_page.dart#L38-L84
