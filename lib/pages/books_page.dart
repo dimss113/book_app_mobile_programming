@@ -41,9 +41,11 @@ class _BookPageState extends State<BookPage> {
         title: const Text(
           'Books',
           style: TextStyle(
-            color: Colors.white
+            color: Colors.white,
+            fontSize: 28,
           ),
         ),
+        centerTitle: true,
         backgroundColor: Colors.transparent,
       ),
       floatingActionButton: FloatingActionButton(
@@ -58,18 +60,25 @@ class _BookPageState extends State<BookPage> {
         },
         child: const Icon(Icons.add),
       ),
-      body: Padding(
-        padding: const EdgeInsets.all(10),
-        child: Center(
-          child: isLoading ? const CircularProgressIndicator()
-          : books.isEmpty ? const Text(
-            'No Books',
-            style: TextStyle(
-              color: Colors.white
+      body: Column(
+        children: [
+          const CircleAvatar(
+                  backgroundImage: AssetImage('assets/profile.webp'),
+                ),
+          Padding(
+            padding: const EdgeInsets.all(10),
+            child: Center(
+              child: isLoading ? const CircularProgressIndicator()
+              : books.isEmpty ? const Text(
+                'No Books',
+                style: TextStyle(
+                  color: Colors.white
+                ),
+              )
+              : buildBooks()
             ),
-          )
-          : buildBooks()
-        ),
+          ),
+        ],
       ),
     );
   }
