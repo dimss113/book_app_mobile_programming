@@ -1,4 +1,4 @@
-![image](https://github.com/dimss113/book_app_mobile_programming/assets/89715780/15c2640c-7231-492d-bcdf-b1da8a4b7456)# book_app
+# book_app
 
 A new Flutter project.
 
